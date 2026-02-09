@@ -107,10 +107,9 @@ from tkinter import filedialog, messagebox, ttk
 def organizador_pastas(diretorio, progress_bar, label_percent, log_box):
     tipos = {
         'Documentos': ['.docx', '.doc', '.xlsx', '.csv', '.txt', '.ppsx', '.ods', '.odt', '.odp', '.pdf'],
-        'Imagens': ['.jpg', '.png', '.odg', '.jpeg', '.bmp'],
+        'Imagens': ['.jpg', '.png', '.odg', '.jpeg', '.bmp', '.gif', '.webp', '.svg', '.tiff'],
         'Vídeos': ['.mp4', '.mov', '.avi'],
-        'Áudios': ['.mp3', '.wav'],
-        'Programas': ['.exe']
+        'Áudios': ['.mp3', '.wav']
     }
 
     # Criar pastas
